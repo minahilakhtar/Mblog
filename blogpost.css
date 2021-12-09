@@ -12,7 +12,7 @@
 
 .post-img::after{
     content: "";
-    background-image: url("../img/4.jpg") ;
+    background-image: url("4.jpg") ;
     z-index: -1;
     background-position: 156cm;
     position: absolute;
