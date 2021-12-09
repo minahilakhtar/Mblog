@@ -1,0 +1,110 @@
+@media screen and (max-width: 1200px) {
+    .navigation {
+        margin-bottom: 23px;
+        flex-direction: column;
+    }
+    .nav-left {
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .form-input {
+        padding: 3px 18px;
+    }
+    .content-right {
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+        text-align: center;
+        margin: 25px -10px;
+    }
+    .home-articles h1, .h1{
+        font-size: 25px;
+
+    }
+    .year-box {
+        font-size: 11px;
+        top: 28px;
+        left: 57vw;
+        display: flex;
+        overflow: hidden;
+    }
+    .year-box h2{
+        padding-right: 10px;
+    }
+    .year-box div{
+        padding: 0 3px;
+    }
+    .home-article-img img {
+        width: 70vw;
+    }
+    .form-input {
+        width: 43%;
+        font-size: 14px;
+        border: 2px solid var(--main-bg-color);
+        font-family: var(--font1);
+    }
+    .search{
+        width: 36%;
+    }
+
+}
+@media screen and (max-width: 400px) {
+
+.search{
+        width: 35%;
+    }
+    .form-input {
+        width: 40%;
+    }
+    .content-left h1, p{
+        text-align: center;
+    }
+    .home-articles {
+        padding-top: 0;
+    }
+    .contact-content{
+        height: 97vh;
+        margin-top: -100px;
+    }
+    .form-box input, textarea{
+        width: 78vw;
+        margin: 5px 0;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 365px) {
+
+    .search {
+        width: 30%;
+        padding: 0;
+    }
+    .form-input {
+        width: 43%;
+    }
+    .year-box {
+        font-size: 10px;
+        top: 30px;
+        left: 53vw;
+    }
+    .home-articles h1, .h1 {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 585px){
+    .post-img::after{
+        background-position: 146cm;
+    }
+    .post-img h1{
+        text-align: center;
+    }
+    .blogpost-meta .social{
+        font-size: 1.8rem;
+        padding-right: 0;
+    }
+    .row {
+        flex-direction: column;
+    }
+
+}
